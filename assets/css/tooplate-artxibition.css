@@ -1500,7 +1500,9 @@ Rent Venue Page
 */
 
 .page-heading-rent-venue {
-  background-image: url(../images/rent_venue_bg.jpg);
+  /* background-image: url(../images/rent_venue_bg.jpg); */
+  background-image: url("https://c0.wallpaperflare.com/preview/285/1009/176/concery-wallpaper-festival-party.jpg");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 110px 0px;
