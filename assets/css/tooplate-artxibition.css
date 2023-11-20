@@ -277,7 +277,7 @@ body {
 }
  .main-white-button a{
   display: inline-block;
-  margin: auto 2em;
+  margin: auto 1em;
   font-size: 16px;
   padding: 8px 13px;
   background-color: #fff;
@@ -2770,4 +2770,8 @@ responsive
   transform: scale(0.95) rotateZ(1.7deg);
 }
 
-.left-content {}
+@media (max-width: 450px) {
+  .card ul {
+    width: 70%;
+  }
+}
