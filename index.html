@@ -104,7 +104,7 @@ https://www.tooplate.com/view/2125-artxibition
                         </div>
                         <h6>November 24th and 25th</h6>
                         <h2 class="head1">Saaya Arts Festival 2k23</h2>
-                        <div class="main-white-button">
+                        <div class="main-white-button-one">
                             <a href="event-details.html">Events</a>
                         </div>
                     </div>
@@ -280,20 +280,20 @@ https://www.tooplate.com/view/2125-artxibition
                         </div>
                         <div class="down-content">
                             <div class="left-content">
-                                <div class="main-white-button">
-                                    <a href="ticket-details.html">Purchase Tickets</a>
+                                <div class="main-white-button one">
+                                    <a href="event-details.html">Events</a>
                                 </div>
                             </div>
                             <div class="right-content">
-                                <h4>Radio City Musical Hall</h4>
+                                <h4>Off Stage</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur vinzi iscing elit, sed doers kontra.</p>
-                                <ul>
+                                <!-- <ul>
                                     <li><i class="fa fa-sitemap"></i>250</li>
                                     <li><i class="fa fa-user"></i>500</li>
-                                </ul>
-                                <div class="price">
+                                </ul> -->
+                                <!-- <div class="price">
                                     <span>1 ticket<br>from <em>$45</em></span>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -306,20 +306,20 @@ https://www.tooplate.com/view/2125-artxibition
                         </div>
                         <div class="down-content">
                             <div class="left-content">
-                                <div class="main-white-button">
-                                    <a href="ticket-details.html">Purchase Tickets</a>
+                                <div class="main-white-button one">
+                                    <a href="event-details.html">Events</a>
                                 </div>
                             </div>
                             <div class="right-content">
-                                <h4>Madison Square Garden</h4>
+                                <h4>On Stage</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur vinzi iscing elit, sed doers kontra.</p>
-                                <ul>
+                                <!-- <ul>
                                     <li><i class="fa fa-sitemap"></i>450</li>
                                     <li><i class="fa fa-user"></i>650</li>
                                 </ul>
                                 <div class="price">
                                     <span>1 ticket<br>from <em>$55</em></span>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -332,20 +332,20 @@ https://www.tooplate.com/view/2125-artxibition
                         </div>
                         <div class="down-content">
                             <div class="left-content">
-                                <div class="main-white-button">
-                                    <a href="ticket-details.html">Purchase Tickets</a>
+                                <div class="main-white-button one">
+                                    <a href="event-details.html">Events</a>
                                 </div>
                             </div>
                             <div class="right-content">
-                                <h4>Royce Hall</h4>
+                                <h4>Second Stage</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur vinzi iscing elit, sed doers kontra.</p>
-                                <ul>
+                                <!-- <ul>
                                     <li><i class="fa fa-sitemap"></i>450</li>
                                     <li><i class="fa fa-user"></i>750</li>
                                 </ul>
                                 <div class="price">
                                     <span>1 ticket<br>from <em>$65</em></span>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -358,9 +358,9 @@ https://www.tooplate.com/view/2125-artxibition
     <!-- *** Coming Events ***-->
     <div class="coming-events">
         <div class="left-button">
-            <div class="main-white-button">
+            <!-- <div class="main-white-button">
                 <a href="shows-events.html">Discover More</a>
-            </div>
+            </div> -->
         </div>
         <div class="container">
             <div class="row">
@@ -438,19 +438,18 @@ https://www.tooplate.com/view/2125-artxibition
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="event-details.html">Shows & Events</a></li>
-                            <li><a href="#">Guides</a></li>
-                            <li><a href="#">Videos</a></li>
-                            <li><a href="#">Outreach</a></li>
+                            <li><a href="about.html">About</a></li>
+            
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="hours">
-                        <h4>Open Hours</h4>
+                        <h4>Event Hours</h4>
                         <ul>
-                            <li>Mon to Fri: 10:00 AM to 8:00 PM</li>
-                            <li>Sat - Sun: 11:00 AM to 4:00 PM</li>
-                            <li>Holidays: Closed</li>
+                            <li>Fri: 9:00 AM to 6:00 PM</li>
+                            <li>Sat: 9:00 AM to 8:00 PM</li>
+                            <li></li>
                         </ul>
                     </div>
                 </div>
@@ -486,24 +485,29 @@ https://www.tooplate.com/view/2125-artxibition
         const text = document.querySelector('.head1');
         text.innerHTML = text.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-        anime.timeline({ loop: false })
-            .add({
 
-                targets: '.head1 .letter',
-                translateX: [0, 0],
-                scale: [10, 1],
-                opacity: [0, 1],
-                easing: "easeOutExpo",
-                duration: 800,
-                delay: anime.stagger(100),
+setTimeout(function() {
+  anime.timeline({ loop: false })
+    .add({
+      targets: '.head1 .letter',
+      translateX: [0, 0],
+      scale: [10, 1],
+      opacity: [0, 1],
+      easing: "easeOutExpo",
+      duration: 600,
+      delay: anime.stagger(100),
+    })
 
-            });
+}, 600); 
+
+
+            
     </script>
     <script>
 
         anime.timeline({ loop: false })
             .add({
-                targets: '.main-white-button',
+                targets: '.main-white-button-one',
                 translateX: [0, 0],
                 scale: [3, 1],
                 opacity: [0, 1],

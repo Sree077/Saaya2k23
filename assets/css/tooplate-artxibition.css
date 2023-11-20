@@ -253,10 +253,11 @@ body {
   color: #fff;
 }
 
-.main-white-button a {
+.main-white-button-one a {
   display: inline-block;
-  font-size: 14px;
-  padding: 12px 18px;
+  margin-left: 2em;
+  font-size: 16px;
+  padding: 12px 14px;
   background-color: #fff;
   color: #d7dadc;
   text-align: center;
@@ -268,13 +269,35 @@ body {
   background: none;
 }
 
-.main-white-button a:hover {
+.main-white-button-one a:hover {
   opacity: 0.9;
   transform: scaleX(1.1);
   color: #85cb33;
   border: 2px solid #85cb33;
 }
-
+ .main-white-button a{
+  display: inline-block;
+  margin: auto 2em;
+  font-size: 16px;
+  padding: 8px 13px;
+  background-color: #fff;
+  color: #d7dadc;
+  text-align: center;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: all .3s;
+  border-radius: 10%;
+  border: 2px solid #fff;
+  background: none;
+  transform: rotate(90deg);
+}
+.main-white-button a:hover{
+  opacity: 0.9;
+  transform: scaleX(1.1);
+  color: #85cb33;
+  border: 2px solid #85cb33;
+  transform: rotate(90deg);
+}
 .main-dark-button a {
   display: inline-block;
   font-size: 14px;
@@ -2702,8 +2725,7 @@ responsive
 }
 
 .card-container .heading {
-  border: 2px solid #000;
-  border-radius: 10%;
+ 
   font-size: 3rem;
   font-family: 'Bebas Neue', sans-serif;
   margin-bottom: 10px;
