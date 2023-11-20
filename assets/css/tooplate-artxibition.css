@@ -1242,10 +1242,10 @@ footer p.copyright {
 About Us Page
 ---------------------------------------------
 */
-
 .page-heading-about {
-  background-image: url(../images/about_bg.jpg);
+  background-image: url(../images/1671268329123.jpg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 110px 0px 410px 0px;
 }
