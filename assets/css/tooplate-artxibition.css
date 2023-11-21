@@ -277,7 +277,7 @@ body {
 }
  .main-white-button a{
   display: inline-block;
-  margin: auto 1em;
+  margin: auto 2em;
   font-size: 16px;
   padding: 8px 13px;
   background-color: #fff;
@@ -298,6 +298,12 @@ body {
   border: 2px solid #85cb33;
   transform: rotate(90deg);
 }
+@media(max-width:450px){
+  .main-white-button{
+    font-size: 12px;
+    margin: auto -2em;
+  }
+}
 .main-dark-button a {
   display: inline-block;
   font-size: 14px;
@@ -309,6 +315,7 @@ body {
   text-transform: capitalize;
   transition: all .3s;
 }
+
 
 .main-dark-button a:hover {
   opacity: 0.9;
