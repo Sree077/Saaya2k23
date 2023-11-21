@@ -304,7 +304,7 @@ body {
     margin: auto -2em;
   }
 }
-.main-dark-button a {
+.main-dark-button a, .main-dark-button button {
   display: inline-block;
   font-size: 14px;
   padding: 12px 18px;
@@ -317,7 +317,7 @@ body {
 }
 
 
-.main-dark-button a:hover {
+.main-dark-button a:hover,.main-dark-button button:hover {
   opacity: 0.9;
 }
 
@@ -1273,7 +1273,7 @@ About Us Page
 ---------------------------------------------
 */
 .page-heading-about {
-  background-image: url(../images/1671268329123.jpg);
+  background-image: url(../images/awhbanda.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
