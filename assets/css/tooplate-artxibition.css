@@ -407,7 +407,6 @@ header
 
 .header-area .main-nav .nav {
   float: right;
-  margin-top: 27px;
   margin-right: 0px;
   background-color: transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -653,7 +652,7 @@ header
   }
 
   .header-area.header-sticky .nav {
-    margin-top: 80px !important;
+    /* margin-top: 80px !important; */
   }
 
   .header-area .main-nav .nav li {
