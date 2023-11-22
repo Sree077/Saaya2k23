@@ -2784,3 +2784,12 @@ responsive
     width: 70%;
   }
 }
+
+
+.guest-icons{
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.guest-role{
+  display: flex;
+}
