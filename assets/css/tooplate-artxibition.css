@@ -2733,8 +2733,8 @@ responsive
   margin-top: 10px;
 }
 
-.card-container .heading {
- 
+.heading {
+  text-align: center;
   font-size: 3rem;
   font-family: 'Bebas Neue', sans-serif;
   margin-bottom: 10px;
