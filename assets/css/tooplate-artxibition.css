@@ -763,11 +763,12 @@ banner
 .main-banner .next-show {
   color: #fff;
   font-size: 18px;
+  margin-left: -30px;  
 }
 
 .main-banner .next-show i {
   font-size: 12px;
-  ;
+  
 }
 
 .main-banner .next-show span {
@@ -2831,5 +2832,10 @@ responsive
   .column-photo {
     flex: 100%;
     max-width: 100%;
+  }
+}
+@media screen and (max-width:450px){
+  .head1{
+    font-size: 30px !important;
   }
 }
