@@ -2839,3 +2839,41 @@ responsive
     font-size: 30px !important;
   }
 }
+
+/* result */
+
+.page-heading-rent-result {
+  background-image: url("https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 110px 0px;
+  text-align: center;
+}
+
+.page-heading-rent-result h2 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.page-heading-rent-result span {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 300;
+  padding: 0px 250px;
+  display: inline-block;
+}
+
+.result-bg{
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  height: 100vh;  
+}
+.result-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
