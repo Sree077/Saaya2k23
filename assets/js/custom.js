@@ -90,7 +90,7 @@
 		setTimeout(function () {
 			// Add the 'loaded' class to hide the preloader
 			$('#js-preloader').addClass('loaded');
-		}, 350); // Adjust the timeout duration as needed
+		}, 100); // Adjust the timeout duration as needed
 	});
 
 
