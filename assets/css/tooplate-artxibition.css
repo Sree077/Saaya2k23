@@ -701,7 +701,7 @@ banner
 */
 
 .main-banner {
-  background-image: url(../images/toedit.jpeg);
+  background-image: url(../webp/toedit-min.webp);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
