@@ -1,33 +1,4 @@
-/*
 
-Tooplate 2125 ArtXibition
-
-https://www.tooplate.com/view/2125-artxibition
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Happy+Monkey&display=swap');
 
