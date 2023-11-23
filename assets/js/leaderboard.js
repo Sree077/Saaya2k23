@@ -46,7 +46,12 @@ function sortAndRenderLeaderboard(data) {
 
     const departmentLi = document.createElement('li');
     const departmentHeading = document.createElement('h1');
-    departmentHeading.textContent = data.points[i].branch;
+    if(data.points[i].branch === 'ECE'){
+      departmentHeading.textContent = 'ECE/EEE';
+    }else{
+      departmentHeading.textContent = data.points[i].branch;
+    }
+    // departmentHeading.textContent = data.points[i].branch;
     departmentLi.appendChild(departmentHeading);
 
     const pointsLi = document.createElement('li');
