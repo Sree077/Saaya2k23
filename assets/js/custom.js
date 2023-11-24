@@ -33,11 +33,11 @@
 			let now = new Date().getTime(),
 				distance = countDown - now;
 
-			document.getElementById('days-count').innerHTML = Math.floor(distance / (day))+1;
-			document.getElementById('days').innerText = Math.floor(distance / (day)) + " :",
-			document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)) + "  :",
-			document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)) + "  :",
-			document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+			// document.getElementById('days-count').innerHTML = 0,
+			// document.getElementById('days').innerText = 0 + " :",
+			// document.getElementById('hours').innerText = 0 + "  :",
+			// document.getElementById('minutes').innerText = 0 + "  :",
+			// document.getElementById('seconds').innerText = 0;
 
 
 
