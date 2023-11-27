@@ -13,12 +13,12 @@ function makeApiCall() {
         }
 
         // Schedule the next API call after a delay (e.g., 10 seconds)
-        setTimeout(makeApiCall, 100000000000000); // 10000 milliseconds = 10 seconds
-      } else {
-        console.error('API request failed with status:', xhr.status);
+      //   setTimeout(makeApiCall, 100000000000000); // 10000 milliseconds = 10 seconds
+      // } else {
+      //   console.error('API request failed with status:', xhr.status);
 
-        // If an error occurs, retry after a delay (e.g., 10 seconds)
-        setTimeout(makeApiCall, 10000000000000); // 10000 milliseconds = 10 seconds
+      //   // If an error occurs, retry after a delay (e.g., 10 seconds)
+      //   setTimeout(makeApiCall, 10000000000000); // 10000 milliseconds = 10 seconds
       }
     }
   };
